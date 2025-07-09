@@ -1,0 +1,4 @@
+venv/
+mlruns/
+logs/
+ML_OPS_Hotel_Reservation.egg-info/
