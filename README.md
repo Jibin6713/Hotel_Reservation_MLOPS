@@ -39,6 +39,17 @@ Hotel_Reservation/
 
 ---
 
+### MLOps Workflow
+Database Setup: Upload dataset to Google Cloud Storage bucket.
+Project Setup: Virtual environment, logging, exception handling, folder structure.
+Data Ingestion: Download dataset, train-test split.
+Notebook Prototyping: Exploratory data analysis, feature selection, modeling.
+Reusable Code: Modular scripts for preprocessing, ingestion, training.
+Experiment Tracking: MLflow for model metrics, artifacts.
+Training Pipeline: End-to-end automation script.
+App Building: Flask UI for user-friendly interaction.
+CI/CD Pipeline: Jenkins + Docker + GCR + Cloud Run for automated deployment
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -64,18 +75,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure the Project
 
-- Edit `config/config.yaml` to set your data source and feature columns if needed.
-
-### 5. Run Data Ingestion and Training
-
-```bash
-python -m src.data_ingestion
-python pipeline/training_pipeline.py
-```
-
-### 6. Start the Flask Web App
+### 4. Start the Flask Web App
 
 ```bash
 python application.py
