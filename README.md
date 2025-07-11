@@ -40,15 +40,15 @@ Hotel_Reservation/
 ---
 
 ### MLOps Workflow
--Database Setup: Upload dataset to Google Cloud Storage bucket.
--Project Setup: Virtual environment, logging, exception handling, folder structure.
--Data Ingestion: Download dataset, train-test split.
--Notebook Prototyping: Exploratory data analysis, feature selection, modeling.
--Reusable Code: Modular scripts for preprocessing, ingestion, training.
--Experiment Tracking: MLflow for model metrics, artifacts.
--Training Pipeline: End-to-end automation script.
--App Building: Flask UI for user-friendly interaction.
--CI/CD Pipeline: Jenkins + Docker + GCR + Cloud Run for automated deployment
+-**Database Setup**: Upload dataset to Google Cloud Storage bucket.
+-**Project Setup**: Virtual environment, logging, exception handling, folder structure.
+-**Data Ingestion**: Download dataset, train-test split.
+-**Notebook Prototyping**: Exploratory data analysis, feature selection, modeling.
+-**Reusable Code**: Modular scripts for preprocessing, ingestion, training.
+-**Experiment Tracking**: MLflow for model metrics, artifacts.
+-**Training Pipeline**: End-to-end automation script.
+-**App Building**: Flask UI for user-friendly interaction.
+-**CI/CD Pipeline**: Jenkins + Docker + GCR + Cloud Run for automated deployment
 
 ## ⚙️ Setup Instructions
 
